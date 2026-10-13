@@ -1,9 +1,9 @@
 
 const courseInfo = {
-    HTML: 'HTML stands for HyperText Markup Language. It creates the structure of web pages using headings, paragraphs, images, links, tables, and forms.',
-    CSS: 'CSS stands for Cascading Style Sheets. It controls colors, fonts, spacing, positioning, and responsive layouts to make websites beautiful.',
-    Bootstrap: 'Bootstrap is a popular front-end framework that helps developers create responsive websites quickly using a grid system and ready-made components.',
-    JavaScript: 'JavaScript adds interactivity to websites, including button clicks, form validation, animations, and dynamic content.'
+    HTML: 'HTML is used to build the structure of a web page. You’ll work with things like headings, text, images, links, and forms.',
+    CSS: 'CSS controls how a page looks, from its colors and fonts to spacing and layout. You’ll also learn how to make pages work on different screen sizes.',
+    Bootstrap: 'Bootstrap gives you ready-made styles and components to build responsive pages without starting every detail from scratch.',
+    JavaScript: 'JavaScript makes web pages interactive. Use it to respond to clicks, check forms, and update content on the page.'
 };
 
 // Course Details Modal
@@ -44,9 +44,9 @@ if (form) {
         const password = document.getElementById('password');
 
         if (email.value.trim() !== '' && password.value.trim() !== '') {
-            alert('Login successful!');
+            window.location.href = 'courses.html';
         } else {
-            alert('Please enter your email and password!');
+            alert('Enter your email and password to continue.');
         }
     });
 
@@ -58,7 +58,7 @@ if (form) {
             link.addEventListener('click', e => {
                 e.preventDefault();
 
-                alert('This feature is not available yet.');
+                alert('This link isn’t set up yet.');
             });
         }
     }
