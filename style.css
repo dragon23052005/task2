@@ -1,0 +1,439 @@
+:root {
+    --navy: #14233e;
+    --blue: #4665ed
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #17243b;
+    margin: 0;
+    background: #fff
+}
+
+.nav-custom {
+    background: #15253f;
+    min-height: 55px
+}
+
+.navbar-brand {
+    font-size: 16px
+}
+
+.navbar .nav-link {
+    font-size: 13px
+}
+
+.hero-panel {
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center
+}
+
+.hero-panel:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(13, 30, 57, .86) 0%, rgba(16, 35, 63, .61) 48%, rgba(10, 22, 41, .16) 100%)
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding-left: 65px
+}
+
+.hero-content .eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.6px
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.13;
+    margin: 14px 0
+}
+
+.hero-content p {
+    font-size: 15px;
+    max-width: 510px;
+    line-height: 1.65
+}
+
+.btn-primary {
+    background: #4769f4;
+    border-color: #4769f4
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 7%
+}
+
+.carousel-indicators button {
+    width: 24px !important;
+    height: 3px !important
+}
+
+.goal-section {
+    max-width: 1110px
+}
+
+.goal-image {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px #192b4518
+}
+
+.section-tag {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #4d6bf2;
+    font-weight: 700
+}
+
+.goal-section h2 {
+    font-size: 31px;
+    font-weight: 750;
+    margin: 9px 0
+}
+
+.muted {
+    color: #647087;
+    font-size: 14px;
+    line-height: 1.8
+}
+
+.feature {
+    background: #fff;
+    border: 1px solid #e7ebf5;
+    box-shadow: 0 4px 14px #14233e0b;
+    border-radius: 10px;
+    padding: 16px;
+    height: 100%
+}
+
+.feature-icon {
+    color: #5566ed;
+    font-size: 22px;
+    margin-bottom: 8px
+}
+
+.feature h3 {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.feature p {
+    font-size: 12px;
+    color: #687388;
+    margin-bottom: 0
+}
+
+.cta {
+    background: #f7f9ff
+}
+
+.cta h2 {
+    font-size: 27px;
+    font-weight: 750
+}
+
+.cta p {
+    font-size: 13px;
+    color: #6e7787
+}
+
+.footer {
+    background: #15253f;
+    color: #fff;
+    padding: 18px 12px;
+    font-size: 12px
+}
+
+.footer small {
+    opacity: .78
+}
+
+.courses-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(120deg, #eef3ff, #f7f4ff)
+}
+
+.courses-main {
+    flex: 1;
+    max-width: 1050px;
+    padding-top: 42px;
+    padding-bottom: 48px
+}
+
+.courses-heading {
+    background: linear-gradient(100deg, #e3edff, #fff);
+    border-radius: 12px;
+    padding: 30px 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 22px #273b6c0a
+}
+
+.courses-heading h1 {
+    font-size: 30px;
+    font-weight: 750;
+    margin: 0 0 8px
+}
+
+.courses-heading p {
+    font-size: 13px;
+    margin: 0
+}
+
+.course-title {
+    font-size: 24px;
+    font-weight: 750;
+    margin-bottom: 28px
+}
+
+.course-card {
+    padding: 22px 25px;
+    border-radius: 10px;
+    min-height: 167px;
+    border-left: 5px solid;
+    box-shadow: 0 4px 14px #17243b0a
+}
+
+.course-card h3 {
+    font-size: 20px;
+    font-weight: 750;
+    margin-bottom: 8px
+}
+
+.course-card p {
+    font-size: 13px;
+    line-height: 1.55;
+    margin-bottom: 14px
+}
+
+.course-card .btn {
+    color: #fff;
+    font-size: 12px
+}
+
+.html-card {
+    background: #fff0e8;
+    border-color: #ed764e
+}
+
+.html-card h3 {
+    color: #aa472b
+}
+
+.btn-html {
+    background: #d66a42
+}
+
+.css-card {
+    background: #e8f3ff;
+    border-color: #4489cf
+}
+
+.css-card h3 {
+    color: #2463a2
+}
+
+.btn-css {
+    background: #397dbe
+}
+
+.bootstrap-card {
+    background: #f1e8ff;
+    border-color: #8255bf
+}
+
+.bootstrap-card h3 {
+    color: #6935a5
+}
+
+.btn-bootstrap {
+    background: #7a48b5
+}
+
+.js-card {
+    background: #fff9d7;
+    border-color: #d4b92e
+}
+
+.js-card h3 {
+    color: #78630c
+}
+
+.btn-js {
+    background: #b79b10
+}
+
+.modal-body p {
+    font-size: 14px;
+    line-height: 1.7
+}
+
+.login-body {
+    min-height: 100vh;
+    background: radial-gradient(ellipse at 10% 20%, #e2eafe, transparent 50%), radial-gradient(ellipse at 90% 80%, #ede3ff, transparent 45%), #f7f9ff;
+    display: grid;
+    place-items: center;
+    padding: 30px 15px
+}
+
+.login-wrap {
+    width: 100%;
+    max-width: 390px
+}
+
+.logo-box {
+    display: inline-grid;
+    place-items: center;
+    width: 45px;
+    height: 45px;
+    background: #6b35d8;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 13px
+}
+
+.login-title {
+    font-size: 25px;
+    font-weight: 800
+}
+
+.login-subtitle {
+    font-size: 12px;
+    color: #738098
+}
+
+.login-card {
+    background: #fff;
+    padding: 27px;
+    border-radius: 15px;
+    box-shadow: 0 14px 40px #34457820
+}
+
+.login-card h2 {
+    font-size: 19px;
+    font-weight: 750
+}
+
+.login-card>p {
+    font-size: 12px;
+    color: #7c879b
+}
+
+.form-label {
+    font-size: 12px;
+    font-weight: 650
+}
+
+.form-control {
+    font-size: 13px;
+    padding: 11px 12px
+}
+
+.password-field {
+    position: relative
+}
+
+.password-field input {
+    padding-right: 58px
+}
+
+.password-field button {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    border: 0;
+    background: transparent;
+    font-size: 12px;
+    color: #7c8191
+}
+
+.remember,
+.login-card a {
+    font-size: 11px
+}
+
+.remember {
+    color: #69768d
+}
+
+.login-card a {
+    color: #6240ce;
+    text-decoration: none
+}
+
+.login-btn {
+    background: #6d36d8;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 11px
+}
+
+.login-btn:hover {
+    background: #5623b5;
+    color: white
+}
+
+.signup-text {
+    text-align: center;
+    margin: 18px 0 0;
+    font-size: 11px !important
+}
+
+.back-link {
+    color: #6c7590;
+    text-decoration: none;
+    font-size: 12px
+}
+
+@media(max-width:767px) {
+    .hero-panel {
+        height: 420px
+    }
+
+    .hero-content {
+        padding: 0 44px
+    }
+
+    .hero-content h1 {
+        font-size: 35px
+    }
+
+    .hero-content p {
+        font-size: 13px
+    }
+
+    .goal-section h2 {
+        font-size: 25px
+    }
+
+    .courses-main {
+        padding-top: 22px
+    }
+
+    .courses-heading h1 {
+        font-size: 23px
+    }
+}
